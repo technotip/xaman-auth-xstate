@@ -1,4 +1,4 @@
-# Welcome to Xaman Authentication using xState
+# Xaman Authentication using xState
 
 ## Tech Stack Used
 
@@ -15,6 +15,7 @@
 # Implementation
 
 All the logic for **signup** and **signin** are present inside the xstate: [statemachine](https://github.com/technotip/xaman-auth-xstate/blob/main/app/machine/authentication.ts)
+
 The UI is separated from the logic: [index.tsx](https://github.com/technotip/xaman-auth-xstate/blob/main/app/routes/_index.tsx)
 
 # Things to check
