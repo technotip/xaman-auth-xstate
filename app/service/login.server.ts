@@ -27,7 +27,7 @@ export const agentLogin = async ({
 
   if (verifyAgent.response.account === raddress) {
     const agent = await db.agent.findUnique({
-      where: { photo: verifyAgent.response.account },
+      where: { raddress: verifyAgent.response.account },
       select: { verified: true, agentId: true },
     });
 

@@ -12,7 +12,9 @@ export async function userRegistration({
   agent: string;
   usertoken: string;
 }) {
-  const agentExists = await db.agent.findUnique({ where: { photo: raddress } });
+  const agentExists = await db.agent.findUnique({
+    where: { raddress: raddress },
+  });
 
   if (agentExists) {
     return {
@@ -47,7 +49,7 @@ export async function userRegistration({
       const agent = await db.agent.create({
         data: {
           name: name.split(" ")[0],
-          photo: verifyAgent.response.account,
+          raddress: verifyAgent.response.account,
           usertoken: usertoken,
           verified: true,
           role: Role.ADMIN,

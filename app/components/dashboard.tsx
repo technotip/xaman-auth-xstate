@@ -3,7 +3,7 @@ export default function DashboardComponent({ user }: any) {
   const people = [
     {
       name: user?.name,
-      raddress: user?.photo,
+      raddress: user?.raddress,
       role: user?.role,
       verified: user?.verified,
     },
