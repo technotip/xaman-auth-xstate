@@ -8,6 +8,28 @@
 4. [XummPkce](https://github.com/XRPL-Labs/XummPkce)
 5. xstate: [StateMachine](https://stately.ai/registry/editor/83c484d9-9bdc-475c-bc45-5b4a3e98b2bd?machineId=a243be4b-2b0e-46fb-b62c-fbfe9ac234f9&mode=Simulate)
 
+# Demo
+
+[xaman-auth-xstate.vercel.app](https://xaman-auth-xstate.vercel.app/)
+
+# Implementation
+
+All the logic for **signup** and **signin** are present inside the xstate: [statemachine](https://github.com/technotip/xaman-auth-xstate/blob/main/app/machine/authentication.ts)
+The UI is separated from the logic: [index.tsx](https://github.com/technotip/xaman-auth-xstate/blob/main/app/routes/_index.tsx)
+
+# Things to check
+
+1. Login without Registering.
+2. Register.
+3. Try to Register once again.
+4. Login.
+5. Once logged in, click on Logout button.
+6. Login once again.
+7. Delete your account.
+8. Try to login.
+9. Register.
+10. Login.
+
 # Steps
 
 1. `npm install -force`

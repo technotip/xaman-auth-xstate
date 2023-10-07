@@ -62,7 +62,6 @@ export async function userRegistration({
         css: "green",
       };
     } catch (e) {
-      console.log(JSON.stringify(e, null, "\t"));
       return {
         msg: "Unknown Database Error.",
         css: "red",
