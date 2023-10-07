@@ -48,7 +48,7 @@ export async function userRegistration({
     try {
       const agent = await db.agent.create({
         data: {
-          name: name.split(" ")[0],
+          name: name,
           raddress: verifyAgent.response.account,
           usertoken: usertoken,
           verified: true,

@@ -74,6 +74,11 @@ export default function DashboardComponent({ user }: any) {
                 ))}
               </tbody>
             </table>
+            <p className="py-14">
+              * If you delete your account and try to login, it'll give you a
+              message that the user does not exist. You'll have to signup once
+              again.
+            </p>
           </div>
         </div>
       </div>

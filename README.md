@@ -6,6 +6,7 @@
 2. MongoDB(Database)
 3. Prisma(ORM)
 4. [XummPkce](https://github.com/XRPL-Labs/XummPkce)
+5. xstate: [StateMachine](https://stately.ai/registry/editor/83c484d9-9bdc-475c-bc45-5b4a3e98b2bd?machineId=a243be4b-2b0e-46fb-b62c-fbfe9ac234f9&mode=Simulate)
 
 # Steps
 

@@ -60,6 +60,16 @@ export default function Index() {
         </div>
         <div className="p-14 m-2">
           <img src={xamanlogo} alt="workflow team" width="500px" />
+          <br />
+          <p className="flex justify-center">
+            <a
+              href="https://github.com/technotip/xaman-auth-xstate"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github link
+            </a>
+          </p>
         </div>
       </div>
     </div>
