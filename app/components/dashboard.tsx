@@ -75,9 +75,9 @@ export default function DashboardComponent({ user }: any) {
               </tbody>
             </table>
             <p className="py-14">
-              * If you delete your account and try to login, it'll give you a
-              message that the user does not exist. You'll have to signup once
-              again.
+              * To check the auth flow: You can delete your account(top right
+              corner), and then try to SignIn(it shows error), and then SignUp
+              and then SignIn. You can also logout and then SignIn.
             </p>
           </div>
         </div>
